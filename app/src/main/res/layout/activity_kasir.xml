@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <ImageView android:src="@drawable/pembayaran"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/judulForm"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kasir"
+            android:minHeight="60dp"
+            android:textSize="10pt">
+        </TextView>
+        <EditText
+            android:id="@+id/txtNama"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Nama Pasien"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtNRP"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Jenis Kelamin"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtUmur"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Umur"
+            >
+        </EditText>
+
+        <TextView
+            android:id="@+id/metodepembayaran"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="METODE PEMBAYARAN :"
+            android:minHeight="50dp"
+            android:textSize="10pt">
+        </TextView>
+        <Button
+            android:id="@+id/btncash"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="CASH"
+            ></Button>
+
+        <Button
+            android:id="@+id/btnBPJS"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="BPJS" ></Button>
+
+        <Button
+            android:id="@+id/btnkredit"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="KREDIT"
+            >
+        </Button>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/judulForm"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran Pasien Baru"
+            android:minHeight="60dp"
+            android:textSize="12pt">
+        </TextView>
+        <EditText
+            android:id="@+id/txtNama"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Nama Pasien"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtNRP"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Jenis Kelamin"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtUmur"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Umur"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtAlamat"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Alamat"
+            >
+        </EditText>
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dokter Spesialis"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kandungan"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anak"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jantung"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyakit Dalam" />
+
+
+
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Daftar"
+            ></Button>
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"></Button>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Close"
+            >
+        </Button>
+    </LinearLayout>
+</ScrollView>
